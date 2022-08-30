@@ -8,12 +8,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { LiveListComponent } from './views/live-list/live-list.component';
 import { HomeModule } from './views/home/home.module';
 import { CursosComponent } from './views/cursos/cursos.component';
+import { TesteGitComponent } from './views/teste-git/teste-git.component';
+import { TestUmComponent } from './views/test-um/test-um.component';
 //import { CursosModule } from './views/cursos/cursos.module';
 //import { LiveListModule } from './views/live-list/live-list.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TesteGitComponent,
+    TestUmComponent,
     
   
     //LiveListComponent
